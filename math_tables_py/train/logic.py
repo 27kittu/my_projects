@@ -33,6 +33,8 @@ class Tables:
             i = int(input(s))
         except ValueError:
             i = 0
+        except KeyboardInterrupt:
+            print("\nKeyboardInterrupt caught! Exiting gracefully.")
         return i
 
     def check_correct(self, assess_list):
