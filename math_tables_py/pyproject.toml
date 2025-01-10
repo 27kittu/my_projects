@@ -1,4 +1,20 @@
 [build-system]
-requires = ["setuptools>=64", "wheel"]
+requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
+[project]
+name = "math_tables_py"
+version = "0.1.0"
+description = "A simple math tables generator"
+readme = "README.md"
+authors = [
+    {name = "kittu", email = "cv27.one@gmail.com"}
+]
+license = {text = "MIT"}
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/yourusername/math_tables_py"
+
+[project.entry-points.console_scripts]
+tables = "math_tables_py.bin.start_tables:main"
