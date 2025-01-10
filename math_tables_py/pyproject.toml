@@ -17,4 +17,4 @@ dependencies = []
 Homepage = "https://github.com/yourusername/math_tables_py"
 
 [project.entry-points.console_scripts]
-tables = "math_tables_py.bin.start_tables:main"
+tables = "train:main"
